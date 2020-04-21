@@ -138,3 +138,33 @@ svg {
   width: 15%;
   margin: 0 20px 50px;
 }
+
+
+/* Princing */
+
+.pricing {
+  padding: 50px 100px;
+}
+
+.card {
+  margin: 3% 2%;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.container {
+  max-width: 960px;
+}
+
+.pricing-header {
+  max-width: 700px;
+}
+
+.card-deck .card {
+  min-width: 220px;
+}
