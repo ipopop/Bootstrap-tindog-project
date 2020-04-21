@@ -10,6 +10,14 @@ body {
   padding: 3% 15%;
 }
 
+a {
+    color: rgba(255,255,255,.5);
+}
+
+a:hover {
+  color: #eee;
+}
+
 h1 {
   color: #eee;
   font-weight: 900;
@@ -17,6 +25,22 @@ h1 {
   line-height: 1.5;
 }
 
+h2 {
+  font-family: 'Montserrat';
+  font-weight: bold;
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+h3 {
+  font-family: 'Montserrat';
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+
+p {
+  color: #8f8f8f;
+}
 
 /* Navigation Bar */
 
@@ -37,7 +61,7 @@ h1 {
 .nav-link {
   font-size: 1.2rem;
   font-family: 'Montserrat';
-  font-weight: light;
+  font-weight: lighter;
 }
 
 /* download buttons */
@@ -50,18 +74,67 @@ svg {
   padding-bottom: 6px;
 }
 
-a {
-    color: rgba(255,255,255,.5);
-}
-
-a:hover {
-  color: #eee;
-}
-
 
 /* Title Img */
 
 .title-img {
   transform: rotate(25deg); /* Equal to rotateZ(45deg) */
   width: 60%;
+}
+
+
+/* Features */
+
+.features {
+  padding: 7% 15%;
+}
+
+.features-box {
+  text-align: center;
+  padding: 2.8%;
+}
+
+.icon svg {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.svg-fill {
+  fill: #ef8172;
+}
+
+.svg-fill:hover {
+  fill: #ff4c68;
+  }
+
+
+/* Testimonials */
+
+.testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: #eee;
+}
+
+.testimonials-img {
+  width: 25%;
+  border-radius: 50%;
+  margin: 20px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/* Press */
+
+.press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 0 20px 50px;
 }
