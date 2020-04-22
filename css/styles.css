@@ -82,7 +82,7 @@ a:hover {
 }
 
 
-/* download buttons */
+/* Download Buttons */
 
 .download-btn {
   margin: 5% 3% 5% 0;
@@ -93,7 +93,7 @@ button svg {
 }
 
 
-/* Title section */
+/* Title Section */
 
 .title .container-fluid {
   padding: 3% 15% 7%;
@@ -112,7 +112,7 @@ button svg {
 }
 
 
-/* Features section */
+/* Features Section */
 
 .features {
   position: relative;
@@ -139,7 +139,7 @@ button svg {
 }
 
 
-/* Testimonials */
+/* Testimonials Section */
 
 .testimonials {
   background-color: #ef8172;
@@ -157,7 +157,7 @@ button svg {
 }
 
 
-/* Press */
+/* Press Section */
 .press {
   background-color: #ef8172;
   padding-bottom: 3%;
@@ -168,7 +168,9 @@ button svg {
   margin: 0 20px 50px;
 }
 
-/* Princing */
+
+/* Pricing Section */
+
 .pricing {
   padding: 50px 3%;
 }
@@ -237,7 +239,7 @@ h2.card-title {
 }
 
 
-/* Footer */
+/* Footer Section */
 
 .social-ico svg {
   margin: 20px 10px;
@@ -251,7 +253,9 @@ h2.card-title {
   fill: #ff4c68;
 }
 
+
 /* Media Queries */
+
 @media (max-width: 1200px) {
   .title {
     text-align: center;
