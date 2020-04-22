@@ -7,11 +7,11 @@ body {
 }
 
 .container-fluid {
-  padding: 3% 15% 6%;
+  padding: 3% 15% 3%;
 }
 
 a {
-    color: rgba(255,255,255,.5);
+  color: rgba(255, 255, 255, .5);
 }
 
 a:hover {
@@ -21,14 +21,14 @@ a:hover {
 h1 {
   color: rgb(250, 250, 250);
   font-weight: 900;
-  font-size: 3.5rem;
+  font-size: 3rem;
   line-height: 1.5;
 }
 
 h2 {
   font-family: 'Montserrat';
   font-weight: bold;
-  font-size: 2.5rem;
+  font-size: 2rem;
   line-height: 1.5;
 }
 
@@ -43,7 +43,6 @@ p {
 }
 
 /* Navigation Bar */
-
 .navbar {
   padding: 0 0 4.5rem;
 }
@@ -65,28 +64,25 @@ p {
 }
 
 /* download buttons */
-
 .download-btn {
   margin: 5% 3% 5% 0;
 }
 
-svg {
+button svg {
   padding-bottom: 6px;
 }
 
 
 /* Title Img */
-
 .title-img {
-  transform: rotate(25deg); /* Equal to rotateZ(45deg) */
+  transform: rotate(25deg);
+  /* Equal to rotateZ(45deg) */
   width: 60%;
   position: absolute;
   right: 30%;
 }
 
-
 /* Features */
-
 .features {
   padding: 7% 15%;
   background-color: rgb(250, 250, 250);
@@ -109,11 +105,9 @@ svg {
 
 .svg-fill:hover {
   fill: #ff4c68;
-  }
-
+}
 
 /* Testimonials */
-
 .testimonials {
   text-align: center;
   background-color: #ef8172;
@@ -131,7 +125,6 @@ svg {
 }
 
 /* Press */
-
 .press {
   background-color: #ef8172;
   text-align: center;
@@ -143,11 +136,9 @@ svg {
   margin: 0 20px 50px;
 }
 
-
 /* Princing */
-
 .pricing {
-  padding: 50px 100px;
+  padding: 50px 3%;
 }
 
 .card {
@@ -189,29 +180,27 @@ h2.card-title {
 }
 
 .pricing .btn-secondary {
-    background-color: #f9798c!important;
-    border-color: #f9798c!important;
+  background-color: #f9798c !important;
+  border-color: #f9798c !important;
 }
 
 .pricing .btn-secondary:hover {
-    background-color: #ff4c68!important;
-    border-color: #ff4c68!important;
+  background-color: #ff4c68 !important;
+  border-color: #ff4c68 !important;
 }
 
 .pricing .btn-outline-secondary {
-    color: #f9798c!important;
-    border-color: #f9798c!important;
+  color: #f9798c !important;
+  border-color: #f9798c !important;
 }
 
 .pricing .btn-outline-secondary:hover {
-    background-color: #ff4c68!important;
-    border-color: #ff4c68!important;
-    color: rgb(250, 250, 250)!important;
+  background-color: #ff4c68 !important;
+  border-color: #ff4c68 !important;
+  color: rgb(250, 250, 250) !important;
 }
 
-
 /* CTA section */
-
 .cta {
   background-color: #ff4c68;
   color: rgb(250, 250, 250);
@@ -222,13 +211,11 @@ h2.card-title {
 .cta-head {
   font-family: 'Montserrat';
   font-weight: bold;
-  font-size: 3.5rem;
+  font-size: 3rem;
   line-height: 1.5;
 }
 
-
 /* Footer */
-
 .footer {
   padding: 7% 15%;
   text-align: center;
@@ -246,9 +233,7 @@ h2.card-title {
   fill: #ff4c68;
 }
 
-
 /* Media Queries */
-
 @media (max-width: 1200px) {
   .title {
     text-align: center;
