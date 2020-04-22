@@ -29,13 +29,13 @@
           <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
             <ul class="nav navbar-dark ml-auto">
               <li class="nav-item">
-                <a class="nav-link active" href="#">Contact</a>
+                <a class="nav-link active" href="#contact">Contact</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Pricing</a>
+                <a class="nav-link" href="#pricing">Pricing</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Download</a>
+                <a class="nav-link" href="#download">Download</a>
               </li>
             </ul>
           </div>
@@ -180,7 +180,7 @@
 
   <!-- Pricing -->
 
-  <section class="pricing">
+  <section id="pricing" class="pricing">
     <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
       <h2>A Plan for Every Dog's Needs</h2>
       <p class="lead">Simple and affordable price plans for your and your dog.</p>
@@ -189,53 +189,77 @@
     <div class="container">
       <div class="card-deck mb-3 test-center">
 
-          <div class="card mb-4 shadow-sm">
-            <div class="card-header">
-              <h3 class="my-0 font-weight-normal">Chihuahua</h3>
-            </div>
-            <div class="card-body">
-              <h2 class="card-title pricing-card-title">Free</h2>
-              <ul class="list-unstyled mt-3 mb-4">
-                <li><p>-</p></li>
-                <li><p>5 Matches Per Day</p></li>
-                <li><p>10 Messages Per Day</p></li>
-                <li><p>Unlimited App Usage</p></li>
-              </ul>
-              <button type="button" class="btn btn-lg btn-block btn-outline-secondary">Sign Up</button>
-            </div>
+        <div class="card mb-4 shadow-sm">
+          <div class="card-header">
+            <h3 class="my-0 font-weight-normal">Chihuahua</h3>
           </div>
+          <div class="card-body">
+            <h2 class="card-title pricing-card-title">Free</h2>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>
+                <p>-</p>
+              </li>
+              <li>
+                <p>5 Matches Per Day</p>
+              </li>
+              <li>
+                <p>10 Messages Per Day</p>
+              </li>
+              <li>
+                <p>Unlimited App Usage</p>
+              </li>
+            </ul>
+            <button type="button" class="btn btn-lg btn-block btn-outline-secondary">Sign Up</button>
+          </div>
+        </div>
 
-          <div class="card mb-4 shadow-sm">
-            <div class="card-header">
-              <h3 class="my-0 font-weight-normal">Labrador</h3>
-            </div>
-            <div class="card-body">
-              <h2 class="card-title pricing-card-title">$49 / mo</h2>
-              <ul class="list-unstyled mt-3 mb-4">
-                <li><p>-</p></li>
-                <li><p>Unlimited Matches</p></li>
-                <li><p>Unlimited Messages</p></li>
-                <li><p>Unlimited App Usage</p></li>
-              </ul>
-              <button type="button" class="btn btn-lg btn-block btn-secondary">Sign Up</button>
-            </div>
+        <div class="card mb-4 shadow-sm">
+          <div class="card-header">
+            <h3 class="my-0 font-weight-normal">Labrador</h3>
           </div>
+          <div class="card-body">
+            <h2 class="card-title pricing-card-title">$49 / mo</h2>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>
+                <p>-</p>
+              </li>
+              <li>
+                <p>Unlimited Matches</p>
+              </li>
+              <li>
+                <p>Unlimited Messages</p>
+              </li>
+              <li>
+                <p>Unlimited App Usage</p>
+              </li>
+            </ul>
+            <button type="button" class="btn btn-lg btn-block btn-secondary">Sign Up</button>
+          </div>
+        </div>
 
-          <div class="card mb-4 shadow-sm">
-            <div class="card-header">
-              <h3 class="my-0 font-weight-normal">Mastiff</h3>
-            </div>
-            <div class="card-body">
-              <h2 class="card-title pricing-card-title">$99 / mo</h2>
-              <ul class="list-unstyled mt-3 mb-4">
-                <li><p>Priority Listing</p></li>
-                <li><p>Unlimited Matches</p></li>
-                <li><p>Unlimited Messages</p></li>
-                <li><p>Unlimited App Usage</p></li>
-              </ul>
-              <button type="button" class="btn btn-lg btn-block btn-secondary">Sign Up</button>
-            </div>
+        <div class="card mb-4 shadow-sm">
+          <div class="card-header">
+            <h3 class="my-0 font-weight-normal">Mastiff</h3>
           </div>
+          <div class="card-body">
+            <h2 class="card-title pricing-card-title">$99 / mo</h2>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>
+                <p>Priority Listing</p>
+              </li>
+              <li>
+                <p>Unlimited Matches</p>
+              </li>
+              <li>
+                <p>Unlimited Messages</p>
+              </li>
+              <li>
+                <p>Unlimited App Usage</p>
+              </li>
+            </ul>
+            <button type="button" class="btn btn-lg btn-block btn-secondary">Sign Up</button>
+          </div>
+        </div>
       </div>
     </div>
 
@@ -244,19 +268,89 @@
 
   <!-- Call to Action -->
 
-  <section id="cta">
+  <section id="download" class="cta">
 
-    <h3>Find the True Love of Your Dog's Life Today.</h3>
-    <button type="button">Download</button>
-    <button type="button">Download</button>
+    <h3 class="cta-head">Find the True Love of Your Dog's Life Today.</h3>
+    <button type="button" class="btn btn-dark btn-lg download-btn">
+      <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="25px" height="25px" viewBox="0 0 172 172" style="fill:#000000;">
+        <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none"
+          text-anchor="none" style="mix-blend-mode: normal">
+          <path d="M0,172v-172h172v172z" fill="none"></path>
+          <g fill="#eeeeee">
+            <path
+              d="M146.57267,56.10067c-0.7052,0.44147 -17.4924,9.75813 -17.4924,30.41533c0.7912,23.55827 21.18467,31.82 21.5344,31.82c-0.34973,0.44147 -3.0788,11.25453 -11.1628,22.58933c-6.4156,9.76387 -13.5364,19.608 -24.34947,19.608c-10.2856,0 -13.97787,-6.50733 -25.84587,-6.50733c-12.7452,0 -16.35147,6.50733 -26.1096,6.50733c-10.81307,0 -18.46133,-10.3716 -25.22667,-20.04373c-8.7892,-12.6592 -16.25973,-32.5252 -16.52347,-51.6c-0.17773,-10.10787 1.76013,-20.04373 6.67933,-28.4832c6.94307,-11.782 19.33853,-19.78 32.87493,-20.04373c10.3716,-0.34973 19.60227,7.1208 25.93187,7.1208c6.06587,0 17.4064,-7.1208 30.2376,-7.1208c5.5384,0.00573 20.30747,1.67413 29.45213,15.738zM86.00573,38.34453c-1.84613,-9.23067 3.2508,-18.46133 7.998,-24.34947c6.06587,-7.1208 15.64627,-11.954 23.908,-11.954c0.52747,9.23067 -2.81507,18.2836 -8.7892,24.87693c-5.36067,7.1208 -14.59133,12.48147 -23.1168,11.42653z">
+            </path>
+          </g>
+        </g>
+      </svg>
+      Download</button>
+    <button type="button" class="btn btn-outline-light btn-lg download-btn">
+      <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="25" height="25" viewBox="0 0 172 172" style=" fill:#000000;">
+        <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none"
+          text-anchor="none" style="mix-blend-mode: normal">
+          <path d="M0,172v-172h172v172z" fill="none"></path>
+          <g fill="#eeeeee">
+            <path
+              d="M24.51,6.88l74.4975,73.96l20.425,-20.425l-90.3,-52.1375c-1.505,-0.87344 -3.1175,-1.35719 -4.6225,-1.3975zM18.275,10.32c-0.67187,1.19594 -1.075,2.60688 -1.075,4.1925v143.7275c0,1.15563 0.24188,2.19031 0.645,3.1175l76.2175,-75.68zM125.6675,63.9625l-21.8225,21.715l21.8225,21.6075l26.66,-15.265c3.78938,-2.19031 4.32688,-4.97187 4.3,-6.45c-0.04031,-2.44562 -1.58562,-4.73 -4.1925,-6.1275c-2.27094,-1.22281 -19.135,-11.04562 -26.7675,-15.48zM99.0075,90.515l-75.1425,74.4975c1.24969,-0.06719 2.60688,-0.33594 3.87,-1.075c2.94281,-1.70656 62.4575,-36.12 62.4575,-36.12l29.3475,-16.8775z">
+            </path>
+          </g>
+        </g>
+      </svg>
+      Download</button>
 
   </section>
 
 
   <!-- Footer -->
 
-  <footer id="footer">
+  <footer id="contact" class="footer">
 
+    <div class="social-ico">
+      <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="50" viewBox="0 0 172 172" style=" fill:#000000;">
+        <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none"
+          text-anchor="none" style="mix-blend-mode: normal">
+          <path d="M0,172v-172h172v172z" fill="none"></path>
+          <g class="social-svg" fill="#333333">
+            <path
+              d="M110.08,37.84h17.2c1.89888,0 3.44,-1.54112 3.44,-3.44v-23.17528c0,-1.80256 -1.38632,-3.3024 -3.182,-3.42968c-5.47304,-0.38872 -16.16456,-0.91504 -23.85296,-0.91504c-21.12504,0 -34.88504,12.6592 -34.88504,35.66592v22.81408h-24.08c-1.89888,0 -3.44,1.54112 -3.44,3.44v24.08c0,1.89888 1.54112,3.44 3.44,3.44h24.08v65.36c0,1.89888 1.54112,3.44 3.44,3.44h24.08c1.89888,0 3.44,-1.54112 3.44,-3.44v-65.36h24.84368c1.7544,0 3.22672,-1.31752 3.41936,-3.0616l2.67632,-24.08c0.22704,-2.03648 -1.36912,-3.8184 -3.41936,-3.8184h-27.52v-17.2c0,-5.70008 4.61992,-10.32 10.32,-10.32z">
+            </path>
+          </g>
+        </g>
+      </svg>
+      <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="50" viewBox="0 0 172 172" style=" fill:#000000;">
+        <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none"
+          text-anchor="none" style="mix-blend-mode: normal">
+          <path d="M0,172v-172h172v172z" fill="none"></path>
+          <g class="social-svg" fill="#333333">
+            <path
+              d="M172,30.82226c-6.4388,2.85547 -12.9056,5.01107 -20.07226,5.73894c7.16667,-4.3112 12.9056,-11.47787 15.76107,-19.3724c-7.16667,4.31119 -14.33333,7.16667 -22.19988,8.6224c-7.16667,-7.16667 -16.48893,-11.47787 -26.51106,-11.47787c-19.3724,0 -35.13347,15.76107 -35.13347,35.10547c0,2.88346 0,5.73893 0.72786,7.89453c-29.39453,-1.42774 -55.17773,-15.06119 -72.39453,-36.56119c-3.58333,5.03906 -5.01107,11.47786 -5.01107,17.91667c0,12.20573 6.43881,22.95573 15.76107,29.39453c-5.73893,-0.72786 -11.44987,-2.1556 -15.76107,-4.31119c0,0 0,0 0,0.72786c0,17.18881 12.17774,31.52214 27.93881,34.4056c-2.85547,0.69988 -5.71094,1.42774 -9.29427,1.42774c-2.1556,0 -4.3112,0 -6.4668,-0.72786c4.31119,14.33333 17.2168,24.38346 32.97786,24.38346c-12.17773,9.32227 -27.23893,15.03321 -43.72786,15.03321c-2.85547,0 -5.73893,0 -8.5944,-0.69988c15.76107,10.02214 34.4056,15.76107 53.75,15.76107c65.22787,0 100.33333,-53.75 100.33333,-100.33333c0,-1.42774 0,-2.85547 0,-4.31119c7.16667,-5.01107 12.9056,-11.44988 17.91667,-18.61654">
+            </path>
+          </g>
+        </g>
+      </svg>
+      <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="50" viewBox="0 0 172 172" style=" fill:#000000;">
+        <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none"
+          text-anchor="none" style="mix-blend-mode: normal">
+          <path d="M0,172v-172h172v172z" fill="none"></path>
+          <g class="social-svg" fill="#333333">
+            <path
+              d="M49.92548,0c-27.49519,0 -49.92548,22.43029 -49.92548,49.92548v72.14904c0,27.49519 22.43029,49.92548 49.92548,49.92548h72.14904c27.49519,0 49.92548,-22.43029 49.92548,-49.92548v-72.14904c0,-27.49519 -22.43029,-49.92548 -49.92548,-49.92548zM49.92548,13.23077h72.14904c20.33714,0 36.69471,16.33173 36.69471,36.69471v72.14904c0,20.33714 -16.33173,36.69471 -36.69471,36.69471h-72.14904c-20.33714,0 -36.69471,-16.33173 -36.69471,-36.69471v-72.14904c0,-20.33714 16.33173,-36.69471 36.69471,-36.69471zM135.61538,26.46154c-5.47837,0 -9.92308,4.44471 -9.92308,9.92308c0,5.47837 4.44471,9.92308 9.92308,9.92308c5.47837,0 9.92308,-4.44471 9.92308,-9.92308c0,-5.47837 -4.44471,-9.92308 -9.92308,-9.92308zM86,39.69231c-25.50541,0 -46.30769,20.80228 -46.30769,46.30769c0,25.50541 20.80228,46.30769 46.30769,46.30769c25.50541,0 46.30769,-20.80228 46.30769,-46.30769c0,-25.50541 -20.80228,-46.30769 -46.30769,-46.30769zM86,52.92308c18.34736,0 33.07692,14.72957 33.07692,33.07692c0,18.34736 -14.72956,33.07692 -33.07692,33.07692c-18.34735,0 -33.07692,-14.72956 -33.07692,-33.07692c0,-18.34735 14.72957,-33.07692 33.07692,-33.07692z">
+            </path>
+          </g>
+        </g>
+      </svg>
+      <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="64" height="64" viewBox="0 0 172 172" style=" fill:#000000;">
+        <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none"
+          text-anchor="none" style="mix-blend-mode: normal">
+          <path d="M0,172v-172h172v172z" fill="none"></path>
+          <g class="social-svg" fill="#333333">
+            <path
+              d="M0,24.08v10.01766c23.07552,19.94168 70.63029,61.04097 74.52437,64.43281c4.8504,4.22088 9.63867,4.67625 11.47563,4.67625c1.83696,0 6.62866,-0.45209 11.47563,-4.66953c3.7496,-3.26456 49.70133,-43.38221 74.52437,-65.05766v-9.39953zM172,42.59687c-25.49728,22.26024 -66.48322,58.04183 -70.0161,61.11375c-6.59448,5.74136 -13.37638,6.36265 -15.9839,6.36265c-2.60752,0 -9.38942,-0.62114 -15.9839,-6.36938c-3.65672,-3.17856 -45.78474,-39.5865 -70.0161,-60.52922v104.74531h172z">
+            </path>
+          </g>
+        </g>
+      </svg>
+    </div>
     <p>© Copyright 2018 TinDog</p>
 
   </footer>
