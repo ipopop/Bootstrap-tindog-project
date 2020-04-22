@@ -47,6 +47,18 @@ a:hover {
 }
 
 
+/* Sections Style */
+
+.color-section {
+  background-color: #ff4c68;
+  color: rgb(250, 250, 250);
+}
+
+.white-section {
+  background-color: rgb(250, 250, 250);
+}
+
+
 /* Navigation Bar */
 
 .navbar {
@@ -83,13 +95,9 @@ button svg {
 
 /* Title section */
 
-.title {
-  background-color: #ff4c68;
-  text-align: left;
-}
-
 .title .container-fluid {
   padding: 3% 15% 7%;
+  text-align: left;
 }
 
 
@@ -107,7 +115,6 @@ button svg {
 /* Features section */
 
 .features {
-  background-color: rgb(250, 250, 250);
   position: relative;
 }
 
@@ -136,7 +143,6 @@ button svg {
 
 .testimonials {
   background-color: #ef8172;
-  color: rgb(250, 250, 250);
 }
 
 .testimonial-text {
@@ -228,12 +234,6 @@ h2.card-title {
   background-color: #ff4c68 !important;
   border-color: #ff4c68 !important;
   color: rgb(250, 250, 250) !important;
-}
-
-/* CTA section */
-.cta {
-  background-color: #ff4c68;
-  color: rgb(250, 250, 250);
 }
 
 
