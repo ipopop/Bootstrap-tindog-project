@@ -256,19 +256,19 @@ h2.card-title {
 
 /* Media Queries */
 
-@media (max-width: 1200px) {
-  .title {
-    text-align: center;
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
   }
+}
 
+@media (max-width: 1100px) {
   .title-img {
     position: static;
     transform: rotate(0);
   }
-}
 
-@media (min-width: 768px) {
-  html {
-    font-size: 16px;
+.big-head, .title .container-fluid {
+    text-align: center;
   }
 }
